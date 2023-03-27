@@ -150,7 +150,7 @@ int print_rot13string(va_list types, char buffer[],
 int flags, int width, int precision, int size)
 {
 char x;
-dhar *str;
+char *str;
 unsigned int i, j;
 int count = 0;
 char in[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
